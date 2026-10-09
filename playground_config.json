@@ -1,0 +1,83 @@
+{
+  "schema": [
+    {
+      "name": "startingGold",
+      "type": "number",
+      "label": "Vàng Khởi Đầu",
+      "default": 5000,
+      "min": 1000,
+      "max": 50000,
+      "step": 1000
+    },
+    {
+      "name": "startingDiamonds",
+      "type": "number",
+      "label": "Kim Cương Khởi Đầu",
+      "default": 3000,
+      "min": 300,
+      "max": 30000,
+      "step": 300
+    },
+    {
+      "name": "startingSummonTickets",
+      "type": "number",
+      "label": "Vé Triệu Hồi Khởi Đầu",
+      "default": 10,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    {
+      "name": "maxStamina",
+      "type": "number",
+      "label": "Thể Lực Tối Đa",
+      "default": 120,
+      "min": 50,
+      "max": 300,
+      "step": 10
+    },
+    {
+      "name": "atbFillRateMultiplier",
+      "type": "number",
+      "label": "Hệ Số Tốc Độ Nạp ATB",
+      "default": 1.0,
+      "min": 0.5,
+      "max": 2.5,
+      "step": 0.1
+    },
+    {
+      "name": "battleSpeedMultiplier",
+      "type": "number",
+      "label": "Tốc Độ Trận Đấu",
+      "default": 1.0,
+      "min": 1.0,
+      "max": 2.0,
+      "step": 0.5
+    },
+    {
+      "name": "enableAutoBattle",
+      "type": "boolean",
+      "label": "Bật Tự Động Đánh",
+      "default": false
+    },
+    {
+      "name": "defaultMusicVolume",
+      "type": "number",
+      "label": "Âm Lượng Nhạc Nền",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "step": 0.1
+    }
+  ],
+  "values": {
+    "startingGold": 5000,
+    "startingDiamonds": 3000,
+    "startingSummonTickets": 10,
+    "maxStamina": 120,
+    "atbFillRateMultiplier": 1.0,
+    "battleSpeedMultiplier": 1.0,
+    "enableAutoBattle": false,
+    "defaultMusicVolume": 0.5
+  }
+}
